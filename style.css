@@ -1,0 +1,123 @@
+body {
+background: rgb(255,255,255);
+color:whitesmoke;
+
+
+font-family: calibri;
+}
+a {text-decoration: none; 
+	color:rgb(255,215,0) ;}
+
+
+
+.de_base {
+	width: 700ox;
+	margin: 40px auto;
+	padding: 30px;
+	text-align: center;
+
+}
+
+@media (max-width : 760px) {
+	.de_base {
+		width: 600px;
+
+	}
+}
+
+.parag_haut {
+
+	padding: 30px;
+	background: rgb(30, 30, 30);
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	border-radius: 50px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1);
+	text-align: center;
+
+}
+
+
+
+}
+.parag_img {
+	background: whitesmoke;
+	padding: 30px;
+	border-radius: 50px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1);
+	width: 300px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.parag_gris {
+	background: rgb(120,120,111);
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 10px 15px 35px rgba(50, 50, 93, 0.1);
+	text-align: center;
+	margin: 10px auto;
+	
+}
+.parag_passion {
+	background: grey;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 10px 15px 35px rgba(50, 50, 93, 0.1);
+	text-align: center;
+	margin: 10px auto;
+}
+
+.parag_chat {
+	background: rgb(120,120,111);
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1);
+	text-align: center;
+	margin: 10px auto;
+}
+
+.parag_sn{
+	background: grey;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1);
+	text-align: center;
+	margin: 10px auto;
+}
+h1 {
+	color: rgb(203,186,166);
+	font-family: helvetica;
+}
+h2 {
+	color: rgb(203,186,166);
+}
+h3 {
+	color: rgb(255,215,0);
+}
+.images_petit
+ { 
+width: :250px;
+height: 250px;
+border-radius: 50%;
+ }
+
+ .text-justify {
+ 	text-align: justify;}
+
+.list-inline {
+	list-style: none;
+	padding-left: Opx;
+
+
+}
+.list-inline li {
+	display: inline-block;
+
+}
+.list-inline i {
+	font-size: 50px;
+}
+
